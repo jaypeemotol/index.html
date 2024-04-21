@@ -1,0 +1,77 @@
+container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    margin-bottom: 20px;
+}
+
+.name-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px; /* Font size of 30px */
+    font-weight: bolder; /* Bolder font weight */
+    border-radius: 8px; /* Border radius of 8px */
+    padding: 10px 20px; 
+    text-decoration: none; /* No underline */
+    font-family: Arial; /* Font family Arial */
+    color: rgb(4, 161, 35); /* Font color */
+ 
+}
+
+h1:hover {
+    background-color: rgb(75, 199, 51); /* Background color when hovered */
+}
+
+h2 {
+    color: rgb(4, 128, 0); /* Pink color for heading lines */
+    border-bottom: 2px solid rgb(0, 128, 11); /* Pink border bottom for heading lines */
+    padding-bottom: 5px; /* Padding bottom for spacing */
+    margin-bottom: 10px; /* Margin bottom for spacing between sections */
+    font-family: Arial; /* Font family Arial */
+    text-align: left;
+    width: 100%; /* Set width to 100% */
+    padding: 5px; /* Add padding */
+    background-color: rgb(160, 221, 180); /* Background color */
+    border-radius: 8px; /* Border radius */
+}
+
+h3 {
+    font-family: Arial; /* Font family Arial */
+}
+
+table {
+    width: 100%; /* Width of 100% */
+    border-collapse: collapse; /* Collapsed border */
+    font-family: Arial; /* Font family Arial */
+}
+
+th, td {
+    padding: 8px; /* Padding of 8px */
+    text-align: left; /* Left text alignment */
+    border: 1px solid rgb(0, 128, 17); /* Border of 1px, solid and pink */
+}
+
+
+
+.content-section {
+    text-align: left; 
+    margin-left: 20px; 
+}
